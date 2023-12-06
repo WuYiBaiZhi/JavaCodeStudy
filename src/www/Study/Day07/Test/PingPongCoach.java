@@ -17,4 +17,9 @@ public class PingPongCoach extends Coach implements StudyEnglish{
     public void studyEnglish() {
         System.out.println("乒乓球教练学习英语");
     }
+
+    @Override
+    public void speakingEnglish() {
+        System.out.println("熟练的说英语");
+    }
 }

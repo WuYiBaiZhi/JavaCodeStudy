@@ -6,10 +6,12 @@ public class Test {
         pingPongSportsman.show();
         pingPongSportsman.study();
         pingPongSportsman.studyEnglish();
+        pingPongSportsman.speakingEnglish();
         PingPongCoach pingPongCoach = new PingPongCoach("李四", 32);
         pingPongCoach.show();
         pingPongCoach.teacher();
         pingPongCoach.studyEnglish();
+        pingPongCoach.speakingEnglish();
 
         BasketBallSportsman basketBallSportsman = new BasketBallSportsman("王五", 21);
         basketBallSportsman.show();
